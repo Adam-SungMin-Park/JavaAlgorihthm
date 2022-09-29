@@ -1,10 +1,7 @@
-import java.lang.reflect.Array;
 import java.util.*;
 
-import static java.util.Collections.*;
 
-
-public class problem8 {
+public class reverseSortNum {
     public long solution(long n) {
         //21942 => 94221
         String str = Long.toString(n); // long to string (for indexing)

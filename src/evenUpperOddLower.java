@@ -1,6 +1,4 @@
-import java.util.Arrays;
-
-public class problem5 {
+public class evenUpperOddLower {
     public String solution(String s) {
         String answer = "";
         String[] test = s.split("");
@@ -21,6 +19,8 @@ public class problem5 {
             answer += test[i];
         }
         answer = String.join("", test);
+
+        System.out.println(answer);
         return answer;
     }
 }

@@ -3,15 +3,15 @@
 
 public class Main {
     public static void main(String[] args) {
-        whatDayIsit whatDayIsit = new whatDayIsit();
+        whatDayIsit problem1 = new whatDayIsit();
         problem2 problem2 = new problem2();
-        problem3 problem3 = new problem3();
-        problem4 problem4 = new problem4();
-        problem5 problem5 = new problem5();
-        problem6 problem6 = new problem6();
+        waterMelon problem3 = new waterMelon();
+        whoCompletedTheRace problem4 = new whoCompletedTheRace();
+        evenUpperOddLower problem5 = new evenUpperOddLower();
+        flipTheIntegerDigits problem6 = new flipTheIntegerDigits();
         problem7 problem7 = new problem7();
-        problem8 problem8 = new problem8();
-        problem9 problem9 = new problem9();
+        reverseSortNum problem8 = new reverseSortNum();
+        isNumberPerfectSquare problem9 = new isNumberPerfectSquare();
         problem10 problem10 = new problem10();
         problem11 problem11 = new problem11();
         problem12 problem12 = new problem12();
@@ -34,6 +34,15 @@ public class Main {
         problem29 problem29 = new problem29();
         problem30 problem30 = new problem30();
         problem31 problem31 = new problem31();
+        averageOfArray problem32 = new averageOfArray();
+        countOfPandY problem33 = new countOfPandY();
+        stringToNum problem34 = new stringToNum();
+        smallestAndLargest problem35 = new smallestAndLargest();
+//        jadenCase problem36 = new jadenCase();
+//        baseOfTwoConversion problem37 = new baseOfTwoConversion();
+        leastSum problem38 = new leastSum();
+
+
 
 
 // string builder
@@ -44,7 +53,14 @@ public class Main {
         //add() O
 
 
-        problem31.solution(5, new int[] {2, 1, 2, 6, 2, 4, 3, 3});
+//        leastSum.solution(new int []{1,2,3}, new int[] {5,4,8});
+//        baseOfTwoConversion.solution("110010101001");
+//        jadenCase.solution("tHis IS an      EXamPle             33asnjdvl");
+//        smallestAndLargest.solution("-1 2 3 -4");
+//        stringToNum.solution("-11234");
+//        countOfPandY.solution("ppPyssYYyyyyy");
+//        averageOfArray.solution(new int[] {1,2,3,4});
+//        problem31.solution(5, new int[] {2, 1, 2, 6, 2, 4, 3, 3});
 //       * problem30.solution(10);
 //        problem29.solution(33);
 //        problem28.solution(3   ,12);
@@ -70,7 +86,7 @@ public class Main {
 //        problem8.solution(12395234);
 //        problem7.solution(10002346);
 //        problem6.solution(1993);
-//        problem5.solution("hello my name is");
+        problem5.solution("try hello world");
 //        problem4.solution(new String[] {"marina", "josipa", "nikola", "vinko", "filipa"},new String[] {"josipa", "filipa", "marina", "nikola"} );
 //        problem3.solution(200);
 //        whatDayIsit.solution(12, 31);

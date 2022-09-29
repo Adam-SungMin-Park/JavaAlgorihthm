@@ -1,7 +1,4 @@
-import java.lang.reflect.Array;
-import java.util.*;
-
-public class problem6 {
+public class flipTheIntegerDigits {
     public int solution(int n) {
         int answer = 0;
       while(n > 0){

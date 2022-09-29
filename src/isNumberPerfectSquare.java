@@ -1,6 +1,4 @@
-import java.util.*;
-
-public class problem9 {
+public class isNumberPerfectSquare {
     public long solution(long n) {
         double test = (double) n;
         double squareAble = Math.sqrt(test);

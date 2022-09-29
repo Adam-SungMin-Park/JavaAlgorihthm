@@ -4,7 +4,7 @@ public class whatDayIsit {
     // date = 31;
     // date = 31 + b -1  ==> 31 +12 -1 ==> 42
     // day[date%7] ==> day[0]
-    public String solution(int a , int b){
+    public static String solution(int a, int b){
         String[] day = {"FRI", "SAT", "SUN", "MON", "TUE", "WED", "THU"};
         int[] month = {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
         int date = 0;
@@ -16,5 +16,6 @@ public class whatDayIsit {
         System.out.println(day[date % 7]);
         return day[date % 7];
     }
+
 
 }

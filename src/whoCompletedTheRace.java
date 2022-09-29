@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class problem4 {
+public class whoCompletedTheRace {
     public String solution(String[] participant, String[] completion) {
         String answer = "";
         Arrays.sort(participant);
