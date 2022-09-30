@@ -1,9 +1,4 @@
-
-
-
-public class Main {
-    public static void main(String[] args) {
-        whatDayIsit problem1 = new whatDayIsit();
+   whatDayIsit problem1 = new whatDayIsit();
         problem2 problem2 = new problem2();
         waterMelon problem3 = new waterMelon();
         whoCompletedTheRace problem4 = new whoCompletedTheRace();
@@ -91,8 +86,3 @@ public class Main {
 //        problem3.solution(200);
 //        whatDayIsit.solution(12, 31);
 //        problem2.solution(new int[] {1000,5,6,7,8},5);
-    }
-}
-
-
-
