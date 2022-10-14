@@ -1,5 +1,7 @@
 package classExampleTransportation;
 
+import classExampleTransportation.problems.*;
+
 public class Main {
         public static void main(String[] args) {
             waterMelon problem3 = new waterMelon();
@@ -39,7 +41,7 @@ public class Main {
 //        baseOfTwoConversion problem37 = new baseOfTwoConversion();
             leastSum problem38 = new leastSum();
             sumBetweenTwoNumbers problem39 = new sumBetweenTwoNumbers();
-
+            incrementalNumber problem40 = new incrementalNumber();
 
 
 
@@ -53,8 +55,8 @@ public class Main {
 
 
 
-
-            sumBetweenTwoNumbers.solution(-100,100);
+            problem40.solution(1,100);
+//            sumBetweenTwoNumbers.solution(-100,100);
 //        leastSum.solution(new int []{1,2,3}, new int[] {5,4,8});
 //        baseOfTwoConversion.solution("110010101001");
 //        jadenCase.solution("tHis IS an      EXamPle             33asnjdvl");
