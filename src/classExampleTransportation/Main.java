@@ -44,11 +44,12 @@ public class Main {
             incrementalNumber problem40 = new incrementalNumber();
             locateKim problem41 = new locateKim();
             hideNumber problem42 = new hideNumber();
+            sumOfTrueFalse problem43 = new sumOfTrueFalse();
 
 
 
-
-        problem42.solution("0104412312312344");
+        problem43.solution(new int[]{4,7,12},new boolean[]{true,false,true});
+//        problem42.solution("0104412312312344");
 //        problem41.solution(new String[]{"Jane","Jane","Jane", "Kim","Jane","Jane",});
 //            problem40.solution(1,100);
 //            sumBetweenTwoNumbers.solution(-100,100);
