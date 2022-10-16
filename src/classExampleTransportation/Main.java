@@ -37,25 +37,19 @@ public class Main {
             countOfPandY problem33 = new countOfPandY();
             stringToNum problem34 = new stringToNum();
             smallestAndLargest problem35 = new smallestAndLargest();
-//        jadenCase problem36 = new jadenCase();
-//        baseOfTwoConversion problem37 = new baseOfTwoConversion();
+            jadenCase problem36 = new jadenCase();
+            baseOfTwoConversion problem37 = new baseOfTwoConversion();
             leastSum problem38 = new leastSum();
             sumBetweenTwoNumbers problem39 = new sumBetweenTwoNumbers();
             incrementalNumber problem40 = new incrementalNumber();
             locateKim problem41 = new locateKim();
+            hideNumber problem42 = new hideNumber();
 
 
 
-// string builder
-            //append = O(1)
-            // ex: output = output + "2" => O(n)
-            // sort = O(n log n)
-            // substring O(n)
-            //add() O
 
-
-
-        problem41.solution(new String[]{"Jane","Jane","Jane", "Kim","Jane","Jane",});
+        problem42.solution("0104412312312344");
+//        problem41.solution(new String[]{"Jane","Jane","Jane", "Kim","Jane","Jane",});
 //            problem40.solution(1,100);
 //            sumBetweenTwoNumbers.solution(-100,100);
 //        leastSum.solution(new int []{1,2,3}, new int[] {5,4,8});
