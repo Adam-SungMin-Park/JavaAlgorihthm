@@ -42,6 +42,7 @@ public class Main {
             leastSum problem38 = new leastSum();
             sumBetweenTwoNumbers problem39 = new sumBetweenTwoNumbers();
             incrementalNumber problem40 = new incrementalNumber();
+            locateKim problem41 = new locateKim();
 
 
 
@@ -54,8 +55,8 @@ public class Main {
 
 
 
-
-            problem40.solution(1,100);
+        problem41.solution(new String[]{"Jane","Jane","Jane", "Kim","Jane","Jane",});
+//            problem40.solution(1,100);
 //            sumBetweenTwoNumbers.solution(-100,100);
 //        leastSum.solution(new int []{1,2,3}, new int[] {5,4,8});
 //        baseOfTwoConversion.solution("110010101001");
