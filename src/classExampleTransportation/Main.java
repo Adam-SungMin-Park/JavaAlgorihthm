@@ -45,11 +45,12 @@ public class Main {
             locateKim problem41 = new locateKim();
             hideNumber problem42 = new hideNumber();
             sumOfTrueFalse problem43 = new sumOfTrueFalse();
+            sumOfMissingNumber problem44 = new sumOfMissingNumber();
 
 
 
 
-
+        problem44.solution(new int[]{1,2,3,4,5,6,8});
 //        problem43.solution(new int[]{4,7,12},new boolean[]{true,false,true});
 //        problem42.solution("0104412312312344");
 //        problem41.solution(new String[]{"Jane","Jane","Jane", "Kim","Jane","Jane",});
